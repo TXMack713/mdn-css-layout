@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   overflow: auto;
@@ -16,7 +17,8 @@ html, body {
 }
 
 body {
-  background: #8C6B68;
+  background: #8c6b68;
+  font-family: sans-serif;
 }
 
 /*
@@ -26,3 +28,39 @@ Additional Pallet Colors:
 #8C4842
 #8C6B68
 #592A2A*/
+
+header {
+  background: purple;
+  height: 100px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  line-height: 100px;
+  margin: 0;
+}
+
+article {
+  padding: 10px;
+  margin: 10px;
+  background: aqua;
+  border-radius: 0.755rem;
+  /* max-width: 300px; */
+  flex: 1 200px;
+}
+
+article:nth-of-type(3) {
+  flex: 2 200px;
+}
+
+.section-header {
+  height: 1.5rem;
+  text-align: center;
+}
+
+section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
