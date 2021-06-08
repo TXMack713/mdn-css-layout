@@ -81,6 +81,6 @@ div {
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  block-size: 100px;
+  max-block-size: 200px;
   border: 1px solid black;
 }
