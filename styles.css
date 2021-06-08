@@ -64,3 +64,18 @@ section {
   flex-flow: row wrap;
   justify-content: space-evenly;
 }
+
+button {
+  font-size: 18px;
+  line-height: 1.5;
+  inline-size: 15%;
+}
+
+div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  block-size: 100px;
+  border: 1px solid black;
+}
