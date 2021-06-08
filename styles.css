@@ -1,3 +1,28 @@
-body {
-  background: hsl(220, 15%, 49%);
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  hyphens: auto;
+  word-break: break-all;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #8C6B68;
+}
+
+/*
+Additional Pallet Colors:
+#D99177
+#F2D0C4
+#8C4842
+#8C6B68
+#592A2A*/
