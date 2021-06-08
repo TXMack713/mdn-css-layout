@@ -71,6 +71,11 @@ button {
   inline-size: 15%;
 }
 
+button:nth-child(3) {
+  align-self: flex-start;
+  order: 0;
+}
+
 div {
   display: flex;
   flex-direction: row;
