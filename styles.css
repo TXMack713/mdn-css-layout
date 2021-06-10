@@ -1,24 +1,24 @@
 html,
 body {
-  margin: 0;
-  padding: 0;
-  overflow: auto;
-  hyphens: auto;
-  word-break: break-all;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    hyphens: auto;
+    word-break: break-all;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 *,
 *:before,
 *:after {
-  box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 body {
-  background: #8c6b68;
-  font-family: sans-serif;
+    background: #8c6b68;
+    font-family: sans-serif;
 }
 
 /*
@@ -30,45 +30,45 @@ Additional Pallet Colors:
 #592A2A*/
 
 header {
-  background: purple;
-  height: 100px;
+    background: purple;
+    height: 100px;
 }
 
 h1 {
-  text-align: center;
-  color: white;
-  line-height: 100px;
-  margin: 0;
+    text-align: center;
+    color: white;
+    line-height: 100px;
+    margin: 0;
 }
 
 article {
-  padding: 10px;
-  margin: 10px;
-  background: aqua;
-  border-radius: 0.755rem;
-  /* max-width: 300px; */
-  flex: 1 200px;
+    padding: 10px;
+    margin: 10px;
+    background: aqua;
+    border-radius: 0.755rem;
+    /* max-width: 300px; */
+    flex: 1 200px;
 }
 
 article:nth-of-type(3) {
-  flex: 2 200px;
+    flex: 2 200px;
 }
 
 .section-header {
-  height: 1.5rem;
-  text-align: center;
+    height: 1.5rem;
+    text-align: center;
 }
 
 section {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
 }
 
 button {
-  font-size: 18px;
-  line-height: 1.5;
-  inline-size: 15%;
+    font-size: 18px;
+    line-height: 1.5;
+    inline-size: 15%;
 }
 
 /* button:nth-child(3) {
@@ -77,10 +77,10 @@ button {
 } */
 
 div {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-  max-block-size: 200px;
-  border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    max-block-size: 200px;
+    border: 1px solid black;
 }
